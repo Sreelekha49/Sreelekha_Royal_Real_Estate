@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Sreelekha Royal Real Estate</title>
+
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+
+    <!-- ==================== NAVIGATION ==================== -->
+
+    <header class="nav"></header>
+
+
+    <!-- ==================== MAIN CONTENT ==================== -->
+
+    <main>
+
+        <!-- ==================== HERO SECTION ==================== -->
+
+       <section class="hero">
+
+    <!-- Full Owner Image -->
+    <div class="hero-image">
+        <img src="assets/owner-sreelekha.jpg"
+             alt="Sreelekha Royal - Owner and Founder">
+    </div>
+
+    <!-- Text Below Image -->
+    <div class="hero-copy">
+
+        <div class="eyebrow">
+            SREELEKHA ROYAL REAL ESTATE · PREMIUM PROPERTY PLATFORM
+        </div>
+
+        <h1>
+            Find a place where
+            <em>life feels royal.</em>
+        </h1>
+
+        <p>
+            Buy, rent, sell and discover verified homes, luxury villas,
+            apartments and commercial spaces with personal guidance
+            from owner &amp; founder Sreelekha.
+        </p>
+
+        <div class="hero-actions">
+
+            <a class="btn" href="properties.html">
+                Explore Properties →
+            </a>
+
+            <a class="btn ghost" href="contact.html">
+                Talk to an Expert
+            </a>
+
+        </div>
+
+        <!-- Search Box -->
+        
+
+            <div class="quick">
+
+                <span>Popular:</span>
+
+                <a href="properties.html?q=Hyderabad">
+                    Hyderabad
+                </a>
+
+                <a href="properties.html?q=Bengaluru">
+                    Bengaluru
+                </a>
+
+                <a href="properties.html?q=Vijayawada">
+                    Vijayawada
+                </a>
+
+                <a href="properties.html?q=Chennai">
+                    Chennai
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+        <!-- ==================== STATISTICS ==================== -->
+
+        <section class="dark-strip">
+
+            <div>
+                <b>10K+</b>
+                <span>Verified Listings</span>
+            </div>
+
+            <div>
+                <b>6K+</b>
+                <span>Happy Customers</span>
+            </div>
+
+            <div>
+                <b>250+</b>
+                <span>Expert Agents</span>
+            </div>
+
+            <div>
+                <b>32</b>
+                <span>Cities Covered</span>
+            </div>
+
+        </section>
+
+
+    
+        <!-- ==================== TESTIMONIALS ==================== -->
+
+        <section class="section">
+
+            <div class="heading">
+
+                <div>
+
+                    <small class="eyebrow">
+                        CUSTOMER VOICE
+                    </small>
+
+                    <h2>
+                        What people say
+                    </h2>
+
+                </div>
+
+                <a href="reviews.html">
+                    All reviews →
+                </a>
+
+            </div>
+
+
+            <div class="grid testimonials">
+
+
+                <div class="testimonial">
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        “The property search felt organized and
+                        transparent. I loved the personal guidance.”
+                    </p>
+
+                    <b>
+                        — Priya, Hyderabad
+                    </b>
+
+                </div>
+
+
+                <div class="testimonial">
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        “Beautiful listings and quick responses.
+                        The owner-led approach feels different.”
+                    </p>
+
+                    <b>
+                        — Karthik, Bengaluru
+                    </b>
+
+                </div>
+
+
+                <div class="testimonial">
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        “The EMI calculator and property comparison
+                        made my decision much easier.”
+                    </p>
+
+                    <b>
+                        — Anusha, Vijayawada
+                    </b>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== FINAL CTA ==================== -->
+
+        <section class="cta">
+
+            <h2>
+                Ready to find your next address?
+            </h2>
+
+            <p>
+                Talk directly to the Sreelekha Royal property team.
+            </p>
+
+            <a
+                class="btn"
+                href="contact.html"
+            >
+                Get Started
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==================== FOOTER ==================== -->
+
+    <footer id="footer"></footer>
+
+
+    <!-- ==================== JAVASCRIPT ==================== -->
+
+    <script src="assets/data.js"></script>
+
+    <script src="assets/app.js"></script>
+
+    <script>
+        document.getElementById("featured").innerHTML =
+            properties
+                .slice(0, 6)
+                .map(card)
+                .join("");
+    </script>
+
+</body>
+
+</html>
